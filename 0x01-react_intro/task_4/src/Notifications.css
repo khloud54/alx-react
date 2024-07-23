@@ -1,0 +1,33 @@
+.Notifications {
+    border: 1px dashed #E0354B;
+    padding: 5px;
+    width: 98%;
+    margin: 5px auto 0;
+}
+.Notifications p {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5em;
+}
+
+.Notifications p button {
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.Notifications img {
+    width: 8px;
+}
+
+.Notifications ul {
+    margin: 1em 2.5em;
+}
+
+.Notifications ul li[data-priority='default'] {
+    color: blue;
+}
+
+.Notifications ul li[data-priority='urgent'] {
+    color: red;
+}
