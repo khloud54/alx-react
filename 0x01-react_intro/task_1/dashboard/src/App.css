@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.App-header {
+  width: 98%;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  color: #E0354B;
+  border-bottom: 3px solid #E0354B;
+}
+
+.App-header img {
+  width: 200px;
+  height: 200px;
+}
+
+.App-body {
+  padding: 3rem;
+  width: 100%;
+  height: 68vh;
+}
+
+.App-footer {
+  border-top: 3px solid #E0354B;
+  padding-top: 1.5rem;
+  height: 100px;
+  width: 98%;
+  text-align: center;
+}
